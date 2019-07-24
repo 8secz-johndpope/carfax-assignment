@@ -25,6 +25,8 @@ A bridge between ClientModels and CarfaxAPI. Mostly transforms network responses
 AppEnvironment.swift handles some credential storage and stores which environment to use - currently only one
 ## CarfaxCore:
 Handles a lot of business logic. Most data sources live here and it helps bridge the CarfaxAPI and CarfaxObjectStore frameworks together.
+## UIColor:
+Add common UI colors to UIColor extension. Avoid putting RGB and HEX colors in code for sake of sanity
 ## CarfaxUI:
 Essentially a dumping ground for reusable UI code. I believe it's important to keep this independent from our business logic and other core frameworks like ClientModels and CarfaxCore. That allows this framework to remain true to UI only features.
 ## Images:
