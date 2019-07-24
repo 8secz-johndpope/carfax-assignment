@@ -16,4 +16,8 @@ public extension UIImage {
     static var icon_phone: UIImage {
         return UIImage(iconNamed: "icon-phone")
     }
+
+    static var placeholder_car: UIImage {
+        return UIImage(iconNamed: "placeholder-car")
+    }
 }

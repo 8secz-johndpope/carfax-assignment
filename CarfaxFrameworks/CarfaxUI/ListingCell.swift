@@ -178,7 +178,7 @@ public class ListingCell: BindingCollectionViewCell<ListingCellViewModelProtocol
             guard let self = self else { return }
             if self.reuseIdentifier != nil {
                 // do not want to download image if calculating height
-                self.imageView.setImage(url: vm.url)
+                self.imageView.setImage(url: vm.url, placeholder: .placeholder_car, showLoadingIndicator: true)
             }
             self.vm = vm
             self.setNeedsLayout()
