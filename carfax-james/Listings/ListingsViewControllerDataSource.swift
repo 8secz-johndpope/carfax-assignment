@@ -13,26 +13,35 @@ import IGListKit
 
 public final class ListingsViewControllerDataSource {
     
+    // model for collection view
     public let sections: Property<[ListDiffable]>
     private let _sections = MutableProperty<[ListDiffable]>([])
     
+    // active when refreshing
+    public let isRefreshing: Property<Bool>
+    private let _isRefreshing: MutableProperty<Bool> = MutableProperty(false)
+
     public init() {
+        self.isRefreshing = Property(_isRefreshing)
         self.sections = Property(_sections)
-        
-        refresh()
     }
     
     /// Fetch listing results from server and update sections - causing refresh of collection view
     public func refresh() {
         ListingDataSource(service: AppService())
             .fetchListingsInformation()
+            .on(starting: { [weak self] in
+                self?._isRefreshing.value = true
+            }, terminated: { [weak self] in
+                self?._isRefreshing.value = false
+            })
             .startWithResult { [weak self] result in
                 switch result {
                 case .failure: break
                 case let .success(listingInformation):
                     self?._sections.value = [ListingsSection(listings: listingInformation.listings)]
                 }
-        }
+            }
     }
     
     /// callPhone(with phoneNumber: String?)

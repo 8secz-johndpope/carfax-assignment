@@ -8,6 +8,8 @@
 
 import UIKit
 import IGListKit
+import ReactiveSwift
+import ReactiveCocoa
 
 public class ListingsViewController: UIViewController, ListAdapterDataSource, ListingsBindingSectionControllerDelegate {
     
@@ -16,6 +18,8 @@ public class ListingsViewController: UIViewController, ListAdapterDataSource, Li
         collectionViewLayout: ListCollectionViewLayout(stickyHeaders: false, topContentInset: 0, stretchToEdge: true)
     )
     
+    private let refreshControl = UIRefreshControl()
+
     // abstracted means to feed data into collection view
     private let adapter = ListAdapter(updater: ListAdapterUpdater(), viewController: nil)
 
@@ -45,11 +49,18 @@ public class ListingsViewController: UIViewController, ListAdapterDataSource, Li
         adapter.dataSource = self
         adapter.collectionView = collectionView
         
+        refreshControl.tintColor = .darkGray
+        collectionView.addSubview(refreshControl)
+        refreshControl.reactive.isRefreshing <~ dataSource.isRefreshing
+        refreshControl.addTarget(self, action: #selector(didPullToRefresh), for: .valueChanged)
+
         dataSource.sections.signal.observeValues { [weak self] _ in
             self?.adapter.performUpdates(animated: true)
         }
         
         title = NSLocalizedString("Vehicle Listings", comment: "The posts made by users to sell their cars")
+        dataSource.refresh()
+        refreshControl.beginRefreshingManually()
     }
 
     override public func viewWillLayoutSubviews() {
@@ -58,6 +69,12 @@ public class ListingsViewController: UIViewController, ListAdapterDataSource, Li
         guard collectionView.frame != view.bounds else { return }
         collectionView.frame = view.bounds
         collectionView.collectionViewLayout.invalidateLayout()
+    }
+    
+    // MARK: Actions
+    
+    @objc private func didPullToRefresh() {
+        self.dataSource.refresh()
     }
 }
 
@@ -75,7 +92,7 @@ extension ListingsViewController {
             
         case is ListingsSection:
             return ListingsBindingSectionController(delegate: self)
-            
+
         default:
             fatalError("Unknown object")
         }
