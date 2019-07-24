@@ -25,3 +25,6 @@ A bridge between ClientModels and CarfaxAPI. Mostly transforms network responses
 AppEnvironment.swift handles some credential storage and stores which environment to use - currently only one
 ## CarfaxCore:
 Handles a lot of business logic. Most data sources live here and it helps bridge the CarfaxAPI and CarfaxObjectStore frameworks together.
+## Images:
+* Don't add any images into xibs or storyboards
+* Add any images to the image asset class in Carfax UI (separate words with -, not underscores). After you add the image-set, run make generate-images in terminal. This will add the image to the image+extension. You can now use UIImage.image_name in code
