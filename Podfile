@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '11'
+platform :ios, '12'
 use_frameworks!
 
 # ignore compile time warnings from pods
