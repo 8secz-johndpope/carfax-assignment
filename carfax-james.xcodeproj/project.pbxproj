@@ -40,6 +40,7 @@
 		1AF9A8DA22E8B50E009B24C7 /* UIColor+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A8D922E8B50E009B24C7 /* UIColor+Utilities.swift */; };
 		1AF9A8DE22E8B5C0009B24C7 /* UIColor+Carfax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A8DD22E8B5C0009B24C7 /* UIColor+Carfax.swift */; };
 		1AF9A8E022E8BF2C009B24C7 /* NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A8DF22E8BF2C009B24C7 /* NSAttributedString.swift */; };
+		1AF9A8E322E8C231009B24C7 /* ListingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A8E222E8C231009B24C7 /* ListingsViewController.swift */; };
 		1AF9A8E822E8C32F009B24C7 /* ListingsViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A8E722E8C32F009B24C7 /* ListingsViewControllerDataSource.swift */; };
 		1AF9A8EA22E8C5C0009B24C7 /* ListingsBindingSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A8E922E8C5C0009B24C7 /* ListingsBindingSectionController.swift */; };
 		1AF9A8EC22E8C5FF009B24C7 /* ListingsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A8EB22E8C5FF009B24C7 /* ListingsSection.swift */; };
@@ -100,6 +101,7 @@
 		1AF9A8D922E8B50E009B24C7 /* UIColor+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Utilities.swift"; sourceTree = "<group>"; };
 		1AF9A8DD22E8B5C0009B24C7 /* UIColor+Carfax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Carfax.swift"; sourceTree = "<group>"; };
 		1AF9A8DF22E8BF2C009B24C7 /* NSAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedString.swift; sourceTree = "<group>"; };
+		1AF9A8E222E8C231009B24C7 /* ListingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingsViewController.swift; sourceTree = "<group>"; };
 		1AF9A8E722E8C32F009B24C7 /* ListingsViewControllerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingsViewControllerDataSource.swift; sourceTree = "<group>"; };
 		1AF9A8E922E8C5C0009B24C7 /* ListingsBindingSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingsBindingSectionController.swift; sourceTree = "<group>"; };
 		1AF9A8EB22E8C5FF009B24C7 /* ListingsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingsSection.swift; sourceTree = "<group>"; };
@@ -291,6 +293,7 @@
 		1AF9A8E122E8C16C009B24C7 /* Listings */ = {
 			isa = PBXGroup;
 			children = (
+				1AF9A8E222E8C231009B24C7 /* ListingsViewController.swift */,
 				1AF9A8E722E8C32F009B24C7 /* ListingsViewControllerDataSource.swift */,
 				1AF9A8E922E8C5C0009B24C7 /* ListingsBindingSectionController.swift */,
 				1AF9A8EB22E8C5FF009B24C7 /* ListingsSection.swift */,
@@ -532,6 +535,7 @@
 				1A8F839722E81E2000874FD0 /* AppDelegate.swift in Sources */,
 				1AF9A8E822E8C32F009B24C7 /* ListingsViewControllerDataSource.swift in Sources */,
 				1AF9A8F522E8D51F009B24C7 /* Double.swift in Sources */,
+				1AF9A8E322E8C231009B24C7 /* ListingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
