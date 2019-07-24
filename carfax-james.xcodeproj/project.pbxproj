@@ -41,6 +41,7 @@
 		1AF9A8DE22E8B5C0009B24C7 /* UIColor+Carfax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A8DD22E8B5C0009B24C7 /* UIColor+Carfax.swift */; };
 		1AF9A8E022E8BF2C009B24C7 /* NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A8DF22E8BF2C009B24C7 /* NSAttributedString.swift */; };
 		1AF9A8E822E8C32F009B24C7 /* ListingsViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A8E722E8C32F009B24C7 /* ListingsViewControllerDataSource.swift */; };
+		1AF9A8EA22E8C5C0009B24C7 /* ListingsBindingSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A8E922E8C5C0009B24C7 /* ListingsBindingSectionController.swift */; };
 		1AF9A8EC22E8C5FF009B24C7 /* ListingsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A8EB22E8C5FF009B24C7 /* ListingsSection.swift */; };
 		1AF9A8EE22E8C705009B24C7 /* IGListKit+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A8ED22E8C705009B24C7 /* IGListKit+Convenience.swift */; };
 		1AF9A8F022E8CA04009B24C7 /* ListingCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A8EF22E8CA04009B24C7 /* ListingCellViewModel.swift */; };
@@ -100,6 +101,7 @@
 		1AF9A8DD22E8B5C0009B24C7 /* UIColor+Carfax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Carfax.swift"; sourceTree = "<group>"; };
 		1AF9A8DF22E8BF2C009B24C7 /* NSAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedString.swift; sourceTree = "<group>"; };
 		1AF9A8E722E8C32F009B24C7 /* ListingsViewControllerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingsViewControllerDataSource.swift; sourceTree = "<group>"; };
+		1AF9A8E922E8C5C0009B24C7 /* ListingsBindingSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingsBindingSectionController.swift; sourceTree = "<group>"; };
 		1AF9A8EB22E8C5FF009B24C7 /* ListingsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingsSection.swift; sourceTree = "<group>"; };
 		1AF9A8ED22E8C705009B24C7 /* IGListKit+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IGListKit+Convenience.swift"; sourceTree = "<group>"; };
 		1AF9A8EF22E8CA04009B24C7 /* ListingCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingCellViewModel.swift; sourceTree = "<group>"; };
@@ -290,6 +292,7 @@
 			isa = PBXGroup;
 			children = (
 				1AF9A8E722E8C32F009B24C7 /* ListingsViewControllerDataSource.swift */,
+				1AF9A8E922E8C5C0009B24C7 /* ListingsBindingSectionController.swift */,
 				1AF9A8EB22E8C5FF009B24C7 /* ListingsSection.swift */,
 				1AF9A8EF22E8CA04009B24C7 /* ListingCellViewModel.swift */,
 			);
@@ -509,6 +512,7 @@
 				1AF9A8C922E82B4E009B24C7 /* Dealer.swift in Sources */,
 				1AF9A8B322E823BB009B24C7 /* Dictionary.swift in Sources */,
 				1AF9A8D522E8ABA1009B24C7 /* ListingCell.swift in Sources */,
+				1AF9A8EA22E8C5C0009B24C7 /* ListingsBindingSectionController.swift in Sources */,
 				1AF9A8DA22E8B50E009B24C7 /* UIColor+Utilities.swift in Sources */,
 				1AF9A8EE22E8C705009B24C7 /* IGListKit+Convenience.swift in Sources */,
 				1A8F83C022E8206C00874FD0 /* ServerAPI.swift in Sources */,
