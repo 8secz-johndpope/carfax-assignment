@@ -9,10 +9,18 @@ PODS:
   - ReactiveSwift (4.0.0):
     - Result (~> 4.0)
   - Result (4.1.0)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
 
 DEPENDENCIES:
   - IGListKit
   - ReactiveCocoa (~> 8.0)
+  - YYWebImage
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -20,13 +28,19 @@ SPEC REPOS:
     - ReactiveCocoa
     - ReactiveSwift
     - Result
+    - YYCache
+    - YYImage
+    - YYWebImage
 
 SPEC CHECKSUMS:
   IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
   ReactiveCocoa: fbd26e9ba60e98417ee47433e59465a98ed9da0f
   ReactiveSwift: a2bb9ace428a109e9c0209615645d9d286c8c433
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 9828614548713ffdd40cf8d4e901f587b391f2e9
+PODFILE CHECKSUM: 3521b24a14b64da929edcdea36fa6604142bf593
 
 COCOAPODS: 1.6.1
