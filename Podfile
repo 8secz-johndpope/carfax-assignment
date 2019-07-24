@@ -7,5 +7,6 @@ inhibit_all_warnings!
 
 target 'carfax-james' do
   pod 'ReactiveCocoa', '~> 8.0'
+  pod 'IGListKit'
 end
 
