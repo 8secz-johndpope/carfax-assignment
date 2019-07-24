@@ -13,6 +13,20 @@
 		1A8F839E22E81E2000874FD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A8F839D22E81E2000874FD0 /* Assets.xcassets */; };
 		1A8F83A122E81E2000874FD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A8F839F22E81E2000874FD0 /* LaunchScreen.storyboard */; };
 		1A8F83AC22E81E2100874FD0 /* carfax_jamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F83AB22E81E2100874FD0 /* carfax_jamesTests.swift */; };
+		1A8F83BE22E8206C00874FD0 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F83B822E8206C00874FD0 /* ErrorResponse.swift */; };
+		1A8F83BF22E8206C00874FD0 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F83B922E8206C00874FD0 /* Endpoints.swift */; };
+		1A8F83C022E8206C00874FD0 /* ServerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F83BA22E8206C00874FD0 /* ServerAPI.swift */; };
+		1A8F83C122E8206C00874FD0 /* AppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F83BB22E8206C00874FD0 /* AppService.swift */; };
+		1A8F83C222E8206C00874FD0 /* ServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F83BC22E8206C00874FD0 /* ServerResponse.swift */; };
+		1A8F83C322E8206C00874FD0 /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F83BD22E8206C00874FD0 /* URLSession.swift */; };
+		1AF9A8AB22E8228F009B24C7 /* NullResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A8AA22E8228F009B24C7 /* NullResponse.swift */; };
+		1AF9A8AE22E8234B009B24C7 /* JSONDecoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A8AD22E8234B009B24C7 /* JSONDecoding.swift */; };
+		1AF9A8B322E823BB009B24C7 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A8B222E823BB009B24C7 /* Dictionary.swift */; };
+		1AF9A8B522E825D4009B24C7 /* ListingsInformationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A8B422E825D4009B24C7 /* ListingsInformationResponse.swift */; };
+		1AF9A8B722E8264B009B24C7 /* ListingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A8B622E8264B009B24C7 /* ListingResponse.swift */; };
+		1AF9A8B922E82828009B24C7 /* ImagesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A8B822E82828009B24C7 /* ImagesResponse.swift */; };
+		1AF9A8BB22E829C6009B24C7 /* DealerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A8BA22E829C6009B24C7 /* DealerResponse.swift */; };
+		BAB9F1FB88917FC89C77B9C0 /* Pods_carfax_james.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4491A5F88B44D6FEDA674AF /* Pods_carfax_james.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +50,22 @@
 		1A8F83A722E81E2100874FD0 /* carfax-jamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "carfax-jamesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8F83AB22E81E2100874FD0 /* carfax_jamesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carfax_jamesTests.swift; sourceTree = "<group>"; };
 		1A8F83AD22E81E2100874FD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A8F83B822E8206C00874FD0 /* ErrorResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		1A8F83B922E8206C00874FD0 /* Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		1A8F83BA22E8206C00874FD0 /* ServerAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerAPI.swift; sourceTree = "<group>"; };
+		1A8F83BB22E8206C00874FD0 /* AppService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppService.swift; sourceTree = "<group>"; };
+		1A8F83BC22E8206C00874FD0 /* ServerResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerResponse.swift; sourceTree = "<group>"; };
+		1A8F83BD22E8206C00874FD0 /* URLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
+		1AF9A8AA22E8228F009B24C7 /* NullResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NullResponse.swift; sourceTree = "<group>"; };
+		1AF9A8AD22E8234B009B24C7 /* JSONDecoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecoding.swift; sourceTree = "<group>"; };
+		1AF9A8B222E823BB009B24C7 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		1AF9A8B422E825D4009B24C7 /* ListingsInformationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingsInformationResponse.swift; sourceTree = "<group>"; };
+		1AF9A8B622E8264B009B24C7 /* ListingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingResponse.swift; sourceTree = "<group>"; };
+		1AF9A8B822E82828009B24C7 /* ImagesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesResponse.swift; sourceTree = "<group>"; };
+		1AF9A8BA22E829C6009B24C7 /* DealerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerResponse.swift; sourceTree = "<group>"; };
+		7A6CE2F5FEE6084548BCE008 /* Pods-carfax-james.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carfax-james.release.xcconfig"; path = "Target Support Files/Pods-carfax-james/Pods-carfax-james.release.xcconfig"; sourceTree = "<group>"; };
+		BDD404D228B306F9F140E4C7 /* Pods-carfax-james.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carfax-james.debug.xcconfig"; path = "Target Support Files/Pods-carfax-james/Pods-carfax-james.debug.xcconfig"; sourceTree = "<group>"; };
+		F4491A5F88B44D6FEDA674AF /* Pods_carfax_james.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_carfax_james.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAB9F1FB88917FC89C77B9C0 /* Pods_carfax_james.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,8 +91,11 @@
 			isa = PBXGroup;
 			children = (
 				1A8F839522E81E2000874FD0 /* carfax-james */,
+				1A8F83B622E8204B00874FD0 /* CarfaxFrameworks */,
 				1A8F83AA22E81E2100874FD0 /* carfax-jamesTests */,
 				1A8F839422E81E2000874FD0 /* Products */,
+				3DDAB50094904CB01FE3FD17 /* Pods */,
+				C05682A5D89ECF489E2164C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +130,75 @@
 			path = "carfax-jamesTests";
 			sourceTree = "<group>";
 		};
+		1A8F83B622E8204B00874FD0 /* CarfaxFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AF9A8AC22E82339009B24C7 /* CarfaxCore */,
+				1A8F83B722E8205C00874FD0 /* CarfaxAPI */,
+			);
+			path = CarfaxFrameworks;
+			sourceTree = "<group>";
+		};
+		1A8F83B722E8205C00874FD0 /* CarfaxAPI */ = {
+			isa = PBXGroup;
+			children = (
+				1A8F83BB22E8206C00874FD0 /* AppService.swift */,
+				1A8F83B922E8206C00874FD0 /* Endpoints.swift */,
+				1A8F83B822E8206C00874FD0 /* ErrorResponse.swift */,
+				1A8F83BA22E8206C00874FD0 /* ServerAPI.swift */,
+				1A8F83BC22E8206C00874FD0 /* ServerResponse.swift */,
+				1A8F83BD22E8206C00874FD0 /* URLSession.swift */,
+				1AF9A8A922E82282009B24C7 /* ResponseModels */,
+			);
+			path = CarfaxAPI;
+			sourceTree = "<group>";
+		};
+		1AF9A8A922E82282009B24C7 /* ResponseModels */ = {
+			isa = PBXGroup;
+			children = (
+				1AF9A8AA22E8228F009B24C7 /* NullResponse.swift */,
+				1AF9A8B422E825D4009B24C7 /* ListingsInformationResponse.swift */,
+				1AF9A8B622E8264B009B24C7 /* ListingResponse.swift */,
+				1AF9A8B822E82828009B24C7 /* ImagesResponse.swift */,
+				1AF9A8BA22E829C6009B24C7 /* DealerResponse.swift */,
+			);
+			path = ResponseModels;
+			sourceTree = "<group>";
+		};
+		1AF9A8AC22E82339009B24C7 /* CarfaxCore */ = {
+			isa = PBXGroup;
+			children = (
+				1AF9A8AD22E8234B009B24C7 /* JSONDecoding.swift */,
+				1AF9A8AF22E8238E009B24C7 /* Extensions */,
+			);
+			path = CarfaxCore;
+			sourceTree = "<group>";
+		};
+		1AF9A8AF22E8238E009B24C7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1AF9A8B222E823BB009B24C7 /* Dictionary.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3DDAB50094904CB01FE3FD17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDD404D228B306F9F140E4C7 /* Pods-carfax-james.debug.xcconfig */,
+				7A6CE2F5FEE6084548BCE008 /* Pods-carfax-james.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C05682A5D89ECF489E2164C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4491A5F88B44D6FEDA674AF /* Pods_carfax_james.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A8F83B022E81E2100874FD0 /* Build configuration list for PBXNativeTarget "carfax-james" */;
 			buildPhases = (
+				B60410338B669CAA0FD0E511 /* [CP] Check Pods Manifest.lock */,
 				1A8F838F22E81E2000874FD0 /* Sources */,
 				1A8F839022E81E2000874FD0 /* Frameworks */,
 				1A8F839122E81E2000874FD0 /* Resources */,
+				0EA58F4F32DA58ED7B9FA26F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,12 +297,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EA58F4F32DA58ED7B9FA26F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-carfax-james/Pods-carfax-james-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-carfax-james/Pods-carfax-james-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B60410338B669CAA0FD0E511 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-carfax-james-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1A8F838F22E81E2000874FD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A8F83BE22E8206C00874FD0 /* ErrorResponse.swift in Sources */,
+				1AF9A8BB22E829C6009B24C7 /* DealerResponse.swift in Sources */,
+				1AF9A8B722E8264B009B24C7 /* ListingResponse.swift in Sources */,
+				1A8F83C122E8206C00874FD0 /* AppService.swift in Sources */,
+				1A8F83C322E8206C00874FD0 /* URLSession.swift in Sources */,
 				1A8F839922E81E2000874FD0 /* ViewController.swift in Sources */,
+				1AF9A8B322E823BB009B24C7 /* Dictionary.swift in Sources */,
+				1A8F83C022E8206C00874FD0 /* ServerAPI.swift in Sources */,
+				1AF9A8B522E825D4009B24C7 /* ListingsInformationResponse.swift in Sources */,
+				1A8F83C222E8206C00874FD0 /* ServerResponse.swift in Sources */,
+				1A8F83BF22E8206C00874FD0 /* Endpoints.swift in Sources */,
+				1AF9A8B922E82828009B24C7 /* ImagesResponse.swift in Sources */,
+				1AF9A8AB22E8228F009B24C7 /* NullResponse.swift in Sources */,
+				1AF9A8AE22E8234B009B24C7 /* JSONDecoding.swift in Sources */,
 				1A8F839722E81E2000874FD0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +527,7 @@
 		};
 		1A8F83B122E81E2100874FD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDD404D228B306F9F140E4C7 /* Pods-carfax-james.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -376,6 +546,7 @@
 		};
 		1A8F83B222E81E2100874FD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A6CE2F5FEE6084548BCE008 /* Pods-carfax-james.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
