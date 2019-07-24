@@ -152,6 +152,7 @@
 		1A8F83B622E8204B00874FD0 /* CarfaxFrameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1AF9A8D322E8AB44009B24C7 /* CarfaxUI */,
 				1AF9A8CA22E83027009B24C7 /* DataSources */,
 				1AF9A8BF22E82AE2009B24C7 /* CarfaxClientModels */,
 				1AF9A8BE22E82ACF009B24C7 /* CarfaxObjectStore */,
@@ -231,6 +232,11 @@
 				1AF9A8CB22E8303E009B24C7 /* ListingDataSource.swift */,
 			);
 			path = DataSources;
+			sourceTree = "<group>";
+		};
+		1AF9A8D322E8AB44009B24C7 /* CarfaxUI */ = {
+			isa = PBXGroup;
+			path = CarfaxUI;
 			sourceTree = "<group>";
 		};
 		3DDAB50094904CB01FE3FD17 /* Pods */ = {
