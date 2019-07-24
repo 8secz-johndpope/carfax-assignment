@@ -13,10 +13,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // initialize environment
         let _ = AppEnvironment.shared
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let listingsDataSource = ListingsViewControllerDataSource()
+        let listingsViewController = ListingsViewController(dataSource: listingsDataSource)
+        let navController = UINavigationController(rootViewController: listingsViewController)
+        self.window?.rootViewController = navController
+        self.window?.makeKeyAndVisible()
+
         return true
     }
 
