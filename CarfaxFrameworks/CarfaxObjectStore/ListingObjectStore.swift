@@ -40,7 +40,8 @@ public final class ListingObjectStore {
         return Images(
             smallURLs: imagesResponse.smallURLs.map { URL(string: $0)! },
             mediumURLs: imagesResponse.mediumURLs.map { URL(string: $0)! },
-            largeURLs: imagesResponse.largeURLs.map { URL(string: $0)! }
+            largeURLs: imagesResponse.largeURLs.map { URL(string: $0)! },
+            firstImage: map(firstListingsImageResponse: imagesResponse.firstImage)
         )
     }
     
@@ -52,6 +53,16 @@ public final class ListingObjectStore {
             city: dealerResponse.city,
             phone: dealerResponse.phone,
             averageRating: dealerResponse.averageRating
+        )
+    }
+    
+    public func map(firstListingsImageResponse: FirstListingsImageResponse?) -> FirstListingsImage? {
+       
+        guard let firstListingsImageResponse = firstListingsImageResponse else { return nil }
+        return FirstListingsImage(
+            small: URL(string: firstListingsImageResponse.small)!,
+            medium: URL(string: firstListingsImageResponse.medium)!,
+            large: URL(string: firstListingsImageResponse.large)!
         )
     }
 }

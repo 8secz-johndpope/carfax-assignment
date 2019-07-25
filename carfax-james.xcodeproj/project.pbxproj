@@ -49,6 +49,8 @@
 		1AF9A8F722E8D9B2009B24C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF9A8F622E8D9B2009B24C7 /* Assets.xcassets */; };
 		1AF9A8FA22E8DB87009B24C7 /* UIImage+Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A8F922E8DB87009B24C7 /* UIImage+Icons.swift */; };
 		1AF9A90422E929BE009B24C7 /* UIRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A90322E929BE009B24C7 /* UIRefreshControl.swift */; };
+		1AF9A90622E96293009B24C7 /* FirstListingsImageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A90522E96293009B24C7 /* FirstListingsImageResponse.swift */; };
+		1AF9A90822E96304009B24C7 /* FirstListingsImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A90722E96304009B24C7 /* FirstListingsImage.swift */; };
 		BAB9F1FB88917FC89C77B9C0 /* Pods_carfax_james.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4491A5F88B44D6FEDA674AF /* Pods_carfax_james.framework */; };
 /* End PBXBuildFile section */
 
@@ -109,6 +111,8 @@
 		1AF9A8F622E8D9B2009B24C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AF9A8F922E8DB87009B24C7 /* UIImage+Icons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Icons.swift"; sourceTree = "<group>"; };
 		1AF9A90322E929BE009B24C7 /* UIRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRefreshControl.swift; sourceTree = "<group>"; };
+		1AF9A90522E96293009B24C7 /* FirstListingsImageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstListingsImageResponse.swift; sourceTree = "<group>"; };
+		1AF9A90722E96304009B24C7 /* FirstListingsImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstListingsImage.swift; sourceTree = "<group>"; };
 		7A6CE2F5FEE6084548BCE008 /* Pods-carfax-james.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carfax-james.release.xcconfig"; path = "Target Support Files/Pods-carfax-james/Pods-carfax-james.release.xcconfig"; sourceTree = "<group>"; };
 		BDD404D228B306F9F140E4C7 /* Pods-carfax-james.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carfax-james.debug.xcconfig"; path = "Target Support Files/Pods-carfax-james/Pods-carfax-james.debug.xcconfig"; sourceTree = "<group>"; };
 		F4491A5F88B44D6FEDA674AF /* Pods_carfax_james.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_carfax_james.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -211,6 +215,7 @@
 				1AF9A8B622E8264B009B24C7 /* ListingResponse.swift */,
 				1AF9A8B822E82828009B24C7 /* ImagesResponse.swift */,
 				1AF9A8BA22E829C6009B24C7 /* DealerResponse.swift */,
+				1AF9A90522E96293009B24C7 /* FirstListingsImageResponse.swift */,
 			);
 			path = ResponseModels;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 				1AF9A8C422E82B34009B24C7 /* Listing.swift */,
 				1AF9A8C622E82B42009B24C7 /* Images.swift */,
 				1AF9A8C822E82B4E009B24C7 /* Dealer.swift */,
+				1AF9A90722E96304009B24C7 /* FirstListingsImage.swift */,
 			);
 			path = CarfaxClientModels;
 			sourceTree = "<group>";
@@ -505,11 +511,13 @@
 				1AF9A8F022E8CA04009B24C7 /* ListingCellViewModel.swift in Sources */,
 				1A8F83C122E8206C00874FD0 /* AppService.swift in Sources */,
 				1AF9A8C322E82B2D009B24C7 /* ListingInformation.swift in Sources */,
+				1AF9A90822E96304009B24C7 /* FirstListingsImage.swift in Sources */,
 				1A8F83C322E8206C00874FD0 /* URLSession.swift in Sources */,
 				1AF9A8D722E8ABD1009B24C7 /* BindingCollectionViewCell.swift in Sources */,
 				1AF9A8C922E82B4E009B24C7 /* Dealer.swift in Sources */,
 				1AF9A8B322E823BB009B24C7 /* Dictionary.swift in Sources */,
 				1AF9A8D522E8ABA1009B24C7 /* ListingCell.swift in Sources */,
+				1AF9A90622E96293009B24C7 /* FirstListingsImageResponse.swift in Sources */,
 				1AF9A8EA22E8C5C0009B24C7 /* ListingsBindingSectionController.swift in Sources */,
 				1AF9A8DA22E8B50E009B24C7 /* UIColor+Utilities.swift in Sources */,
 				1AF9A8EE22E8C705009B24C7 /* IGListKit+Convenience.swift in Sources */,
