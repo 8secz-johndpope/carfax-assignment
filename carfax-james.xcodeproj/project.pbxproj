@@ -184,11 +184,11 @@
 			isa = PBXGroup;
 			children = (
 				1AF9A8D322E8AB44009B24C7 /* CarfaxUI */,
-				1AF9A8CA22E83027009B24C7 /* DataSources */,
-				1AF9A8BF22E82AE2009B24C7 /* CarfaxClientModels */,
-				1AF9A8BE22E82ACF009B24C7 /* CarfaxObjectStore */,
 				1AF9A8AC22E82339009B24C7 /* CarfaxCore */,
 				1A8F83B722E8205C00874FD0 /* CarfaxAPI */,
+				1AF9A8CA22E83027009B24C7 /* DataSources */,
+				1AF9A8BF22E82AE2009B24C7 /* ClientModels */,
+				1AF9A8BE22E82ACF009B24C7 /* ObjectStore */,
 			);
 			path = CarfaxFrameworks;
 			sourceTree = "<group>";
@@ -240,15 +240,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		1AF9A8BE22E82ACF009B24C7 /* CarfaxObjectStore */ = {
+		1AF9A8BE22E82ACF009B24C7 /* ObjectStore */ = {
 			isa = PBXGroup;
 			children = (
 				1AF9A8C022E82AFA009B24C7 /* ListingObjectStore.swift */,
 			);
-			path = CarfaxObjectStore;
+			path = ObjectStore;
 			sourceTree = "<group>";
 		};
-		1AF9A8BF22E82AE2009B24C7 /* CarfaxClientModels */ = {
+		1AF9A8BF22E82AE2009B24C7 /* ClientModels */ = {
 			isa = PBXGroup;
 			children = (
 				1AF9A8C222E82B2D009B24C7 /* ListingInformation.swift */,
@@ -257,7 +257,7 @@
 				1AF9A8C822E82B4E009B24C7 /* Dealer.swift */,
 				1AF9A90722E96304009B24C7 /* FirstListingsImage.swift */,
 			);
-			path = CarfaxClientModels;
+			path = ClientModels;
 			sourceTree = "<group>";
 		};
 		1AF9A8CA22E83027009B24C7 /* DataSources */ = {

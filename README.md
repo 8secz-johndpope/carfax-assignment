@@ -17,9 +17,9 @@ API: https://carfax-for-consumers.firebaseio.com/assignment.json
 
 ## CarfaxAPI
 Network layer, maps JSON responses from the API to swift models that can be tested and typed into useful data structures.
-## CarfaxClientModels:
+## ClientModels:
 Contains classes and structs to encapsulate the data specific to our client. Keeping it separate from API or persistent storage (Firestore - tbd) gives us flexibility and stability that we wouldn't have otherwise.
-## CarfaxObjectStore:
+## ObjectStore:
 A bridge between ClientModels and CarfaxAPI. Mostly transforms network responses into ClientModels and enriches any missing information we have stored locally.
 ## AppEnvironment:
 AppEnvironment.swift handles some credential storage and stores which environment to use - currently only one
