@@ -21,7 +21,7 @@ public final class ListingCellViewModel: ListingCellViewModelProtocol, ListDiffa
     
     public init(listing: Listing) {
         self.listing = listing
-        self.url = listing.images?.largeURLs.first
+        self.url = listing.images?.firstImage?.large ?? listing.images?.firstImage?.medium ?? listing.images?.firstImage?.small
         self.priceText = format(price: listing.price)
         self.titleText = titleTextFor(listing: listing)
         self.descriptionText = descriptionTextFor(listing: listing)
