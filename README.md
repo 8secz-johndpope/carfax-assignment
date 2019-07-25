@@ -1,3 +1,20 @@
+# Notes
+- Coded on xCode 10.1 - Swift 4.2 (only computer I had available)
+- You will need to run `pod install` and open the workspace
+- For brevity, I did not create additional frameworks. I simply put all the folders that would be frameworks, into the main target.
+- List price vs one price vs current price: I wasn't sure which price to use, so I used `listPrice`
+- Implemented own api instead of simple alamofire web provider. I like the flexability and I had some code for it!
+- I decided to use frames for this instead of XIBS.  Carfax and my current company's app both are portrait only,  and I personally feel frames are better.
+- There are some big commits early on - just getting things setup
+- It looks like the API was set up for paging, but I couldn't figure out the paging keys! So I just used the 25 first results from the endpoint.
+- More optimization could be done around the image sizes based on the width of the phone, but for now I'm eating up your data with the largest image
+- Thanks for the time to review this!
+
+Time Profile looks good after scrolling:
+<img width="537" alt="Screen Shot 2019-07-25 at 2 10 23 AM" src="https://user-images.githubusercontent.com/3453556/61850420-4a79f980-ae82-11e9-90ae-29e234106b49.png">
+
+As well as leaks and allocations: <img width="661" alt="Screen Shot 2019-07-25 at 2 19 25 AM" src="https://user-images.githubusercontent.com/3453556/61850693-e4da3d00-ae82-11e9-8aa7-1a78849a7d30.png">
+
 # carfax-assignment
 
 Display a list of vehicles with the following information:
