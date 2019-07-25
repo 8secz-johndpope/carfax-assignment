@@ -51,6 +51,16 @@
 		1AF9A90422E929BE009B24C7 /* UIRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A90322E929BE009B24C7 /* UIRefreshControl.swift */; };
 		1AF9A90622E96293009B24C7 /* FirstListingsImageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A90522E96293009B24C7 /* FirstListingsImageResponse.swift */; };
 		1AF9A90822E96304009B24C7 /* FirstListingsImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A90722E96304009B24C7 /* FirstListingsImage.swift */; };
+		1AF9A90B22E96A62009B24C7 /* ListingObjectStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A90A22E96A62009B24C7 /* ListingObjectStoreTests.swift */; };
+		1AF9A90E22E96C43009B24C7 /* ResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A90D22E96C43009B24C7 /* ResponseTests.swift */; };
+		1AF9A91222E96D21009B24C7 /* MockClientModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A91122E96D21009B24C7 /* MockClientModels.swift */; };
+		1AF9A91522E97008009B24C7 /* Stubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A91422E97008009B24C7 /* Stubs.swift */; };
+		1AF9A91822E9707A009B24C7 /* ClientModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A91722E9707A009B24C7 /* ClientModelsTests.swift */; };
+		1AF9A91A22E972D3009B24C7 /* valid_from_api.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AF9A91922E972C5009B24C7 /* valid_from_api.json */; };
+		1AF9A91C22E97443009B24C7 /* JSONDecodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A91B22E97443009B24C7 /* JSONDecodingTests.swift */; };
+		1AF9A91F22E977E7009B24C7 /* AppEnvironmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A91E22E977E7009B24C7 /* AppEnvironmentTests.swift */; };
+		1AF9A92122E97887009B24C7 /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A92022E97887009B24C7 /* ExtensionTests.swift */; };
+		1AF9A92422E979E7009B24C7 /* ListingCellVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9A92322E979E7009B24C7 /* ListingCellVMTests.swift */; };
 		BAB9F1FB88917FC89C77B9C0 /* Pods_carfax_james.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4491A5F88B44D6FEDA674AF /* Pods_carfax_james.framework */; };
 /* End PBXBuildFile section */
 
@@ -113,6 +123,16 @@
 		1AF9A90322E929BE009B24C7 /* UIRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRefreshControl.swift; sourceTree = "<group>"; };
 		1AF9A90522E96293009B24C7 /* FirstListingsImageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstListingsImageResponse.swift; sourceTree = "<group>"; };
 		1AF9A90722E96304009B24C7 /* FirstListingsImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstListingsImage.swift; sourceTree = "<group>"; };
+		1AF9A90A22E96A62009B24C7 /* ListingObjectStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingObjectStoreTests.swift; sourceTree = "<group>"; };
+		1AF9A90D22E96C43009B24C7 /* ResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseTests.swift; sourceTree = "<group>"; };
+		1AF9A91122E96D21009B24C7 /* MockClientModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockClientModels.swift; sourceTree = "<group>"; };
+		1AF9A91422E97008009B24C7 /* Stubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stubs.swift; sourceTree = "<group>"; };
+		1AF9A91722E9707A009B24C7 /* ClientModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientModelsTests.swift; sourceTree = "<group>"; };
+		1AF9A91922E972C5009B24C7 /* valid_from_api.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = valid_from_api.json; sourceTree = "<group>"; };
+		1AF9A91B22E97443009B24C7 /* JSONDecodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecodingTests.swift; sourceTree = "<group>"; };
+		1AF9A91E22E977E7009B24C7 /* AppEnvironmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironmentTests.swift; sourceTree = "<group>"; };
+		1AF9A92022E97887009B24C7 /* ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
+		1AF9A92322E979E7009B24C7 /* ListingCellVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingCellVMTests.swift; sourceTree = "<group>"; };
 		7A6CE2F5FEE6084548BCE008 /* Pods-carfax-james.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carfax-james.release.xcconfig"; path = "Target Support Files/Pods-carfax-james/Pods-carfax-james.release.xcconfig"; sourceTree = "<group>"; };
 		BDD404D228B306F9F140E4C7 /* Pods-carfax-james.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carfax-james.debug.xcconfig"; path = "Target Support Files/Pods-carfax-james/Pods-carfax-james.debug.xcconfig"; sourceTree = "<group>"; };
 		F4491A5F88B44D6FEDA674AF /* Pods_carfax_james.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_carfax_james.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,7 +194,15 @@
 		1A8F83AA22E81E2100874FD0 /* carfax-jamesTests */ = {
 			isa = PBXGroup;
 			children = (
+				1AF9A92222E979D8009B24C7 /* CarfaxJamesTests */,
+				1AF9A91D22E974AB009B24C7 /* CarfaxCoreTests */,
+				1AF9A91622E9706F009B24C7 /* ClientModels */,
+				1AF9A90C22E96C31009B24C7 /* CarfaxAPITests */,
+				1AF9A90922E96A43009B24C7 /* ObjectStoreTests */,
+				1AF9A91322E96FA0009B24C7 /* Stubs */,
 				1A8F83AB22E81E2100874FD0 /* carfax_jamesTests.swift */,
+				1AF9A91422E97008009B24C7 /* Stubs.swift */,
+				1AF9A91122E96D21009B24C7 /* MockClientModels.swift */,
 				1A8F83AD22E81E2100874FD0 /* Info.plist */,
 			);
 			path = "carfax-jamesTests";
@@ -321,6 +349,56 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		1AF9A90922E96A43009B24C7 /* ObjectStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AF9A90A22E96A62009B24C7 /* ListingObjectStoreTests.swift */,
+			);
+			path = ObjectStoreTests;
+			sourceTree = "<group>";
+		};
+		1AF9A90C22E96C31009B24C7 /* CarfaxAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AF9A90D22E96C43009B24C7 /* ResponseTests.swift */,
+			);
+			path = CarfaxAPITests;
+			sourceTree = "<group>";
+		};
+		1AF9A91322E96FA0009B24C7 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				1AF9A91922E972C5009B24C7 /* valid_from_api.json */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		1AF9A91622E9706F009B24C7 /* ClientModels */ = {
+			isa = PBXGroup;
+			children = (
+				1AF9A91722E9707A009B24C7 /* ClientModelsTests.swift */,
+			);
+			path = ClientModels;
+			sourceTree = "<group>";
+		};
+		1AF9A91D22E974AB009B24C7 /* CarfaxCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AF9A91B22E97443009B24C7 /* JSONDecodingTests.swift */,
+				1AF9A92022E97887009B24C7 /* ExtensionTests.swift */,
+				1AF9A91E22E977E7009B24C7 /* AppEnvironmentTests.swift */,
+			);
+			path = CarfaxCoreTests;
+			sourceTree = "<group>";
+		};
+		1AF9A92222E979D8009B24C7 /* CarfaxJamesTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AF9A92322E979E7009B24C7 /* ListingCellVMTests.swift */,
+			);
+			path = CarfaxJamesTests;
+			sourceTree = "<group>";
+		};
 		3DDAB50094904CB01FE3FD17 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -431,6 +509,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AF9A91A22E972D3009B24C7 /* valid_from_api.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +627,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A8F83AC22E81E2100874FD0 /* carfax_jamesTests.swift in Sources */,
+				1AF9A90E22E96C43009B24C7 /* ResponseTests.swift in Sources */,
+				1AF9A91522E97008009B24C7 /* Stubs.swift in Sources */,
+				1AF9A91222E96D21009B24C7 /* MockClientModels.swift in Sources */,
+				1AF9A90B22E96A62009B24C7 /* ListingObjectStoreTests.swift in Sources */,
+				1AF9A91F22E977E7009B24C7 /* AppEnvironmentTests.swift in Sources */,
+				1AF9A92122E97887009B24C7 /* ExtensionTests.swift in Sources */,
+				1AF9A92422E979E7009B24C7 /* ListingCellVMTests.swift in Sources */,
+				1AF9A91822E9707A009B24C7 /* ClientModelsTests.swift in Sources */,
+				1AF9A91C22E97443009B24C7 /* JSONDecodingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
