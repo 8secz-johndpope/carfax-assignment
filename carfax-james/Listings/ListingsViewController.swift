@@ -58,6 +58,10 @@ public class ListingsViewController: UIViewController, ListAdapterDataSource, Li
             self?.adapter.performUpdates(animated: true)
         }
         
+        dataSource.shouldDisplayAlertMessage.signal.observeValues { [weak self] message in
+            self?.displayAlertWith(message: message)
+        }
+        
         title = NSLocalizedString("Vehicle Listings", comment: "The posts made by users to sell their cars")
         dataSource.refresh()
         refreshControl.beginRefreshingManually()
@@ -73,6 +77,13 @@ public class ListingsViewController: UIViewController, ListAdapterDataSource, Li
     
     // MARK: Actions
     
+    // takes a message and displays it in an alert with OK cancel button
+    private func displayAlertWith(message: String) {
+        let alert = UIAlertController(title: "Whammie", message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+    }
+
     @objc private func didPullToRefresh() {
         self.dataSource.refresh()
     }

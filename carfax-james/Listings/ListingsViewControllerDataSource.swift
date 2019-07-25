@@ -21,9 +21,14 @@ public final class ListingsViewControllerDataSource {
     public let isRefreshing: Property<Bool>
     private let _isRefreshing: MutableProperty<Bool> = MutableProperty(false)
 
+    // displaying alert
+    public let shouldDisplayAlertMessage: Property<String>
+    private let _shouldDisplayAlertMessage: MutableProperty<String> = MutableProperty("")
+    
     public init() {
         self.isRefreshing = Property(_isRefreshing)
         self.sections = Property(_sections)
+        self.shouldDisplayAlertMessage = Property(_shouldDisplayAlertMessage)
     }
     
     /// Fetch listing results from server and update sections - causing refresh of collection view
@@ -48,10 +53,15 @@ public final class ListingsViewControllerDataSource {
     /// Attempts to make a call if user has capable device
     /// - parameter phoneNumber - String phone number - all numbers (in string)
     public func callPhone(with phoneNumber: String?) {
-        guard let phoneNumber = phoneNumber, !phoneNumber.isEmpty else { return }
-        if let phoneCallURL = URL(string: "tel://\(phoneNumber)"), UIApplication.shared.canOpenURL(phoneCallURL)
-        {
-            UIApplication.shared.open(phoneCallURL, options: [:], completionHandler: nil)
+        guard let phoneNumber = phoneNumber, !phoneNumber.isEmpty else {
+            _shouldDisplayAlertMessage.value = NSLocalizedString("Phone number invalid", comment: "Alerting user that the given phone number is not correctly formatted")
+            return
         }
+        guard let phoneCallURL = URL(string: "tel://\(phoneNumber)"), UIApplication.shared.canOpenURL(phoneCallURL) else {
+            _shouldDisplayAlertMessage.value = NSLocalizedString("Cannot phone home with a rock", comment: "Alerting user that the device cannot perform calling functionality")
+            return
+        }
+        
+        UIApplication.shared.open(phoneCallURL, options: [:], completionHandler: nil)
     }
 }
